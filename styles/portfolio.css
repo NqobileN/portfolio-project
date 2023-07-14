@@ -1,4 +1,42 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: white;
+  font-weight: bold;
+}
+
 h1 {
-  color: pink;
+  font-size: 96px;
+}
+
+.hero {
+  background-color: black;
+  color: white;
   text-align: center;
+  font-family: "Sorts Mill Goudy", serif;
+  padding: 160px 20px;
+}
+
+.hero h2 {
+  line-height: 2;
+  font-weight: normal;
+  color: grey;
+}
+
+.hero p {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.btn-branding {
+  color: black;
+  background: white;
+  border-radius: 4px;
+  font-size: 24px;
+  line-height: 27px;
+  padding: 15px 30px;
 }
