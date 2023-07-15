@@ -54,7 +54,7 @@ nav a:hover {
 }
 
 footer p {
-  color: white;
+  color: black;
   font-size: 20px;
 }
 
@@ -63,6 +63,14 @@ footer a {
 }
 
 footer a:hover {
+  color: black;
+}
+
+.foot-link p {
+  color: white;
+}
+
+.foot-link a:hover {
   color: white;
 }
 
