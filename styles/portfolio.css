@@ -6,6 +6,7 @@ h5,
 h6 {
   color: white;
   font-weight: bold;
+  font-family: "Sorts Mill Goudy", serif;
 }
 
 h1 {
@@ -15,12 +16,14 @@ h1 {
 
 h2 {
   font-size: 64px;
-  color: black;
+  color: white;
 }
 
 p {
   font-weight: normal;
   font-size: 16px;
+  color: white;
+  font-family: "Sorts Mill Goudy", serif;
 }
 
 .hero {
@@ -51,21 +54,28 @@ p {
   font-size: 24px;
   line-height: 27px;
   padding: 15px 30px;
+  margin: 20px;
 }
 
 .btn-branding-outline {
-  color: black;
-  background: white;
-  border: 2px solid black;
+  color: white;
+  background: black;
+  border: 2px solid white;
   border-radius: 4px;
   font-size: 24px;
   line-height: 27px;
   padding: 15px 30px;
+  font-family: "Sorts Mill Goudy", serif;
 }
 
-.btn-branding-outline:hover {
+.btn-branding:hover {
   background: black;
   color: white;
+  border: 2px solid white;
+}
+.btn-branding-outline:hover {
+  background: white;
+  color: black;
 }
 
 .project-description {
