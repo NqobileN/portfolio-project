@@ -47,6 +47,23 @@ p {
   margin: 0;
 }
 
+.about-me {
+  padding: 160px 20px;
+}
+
+.about-me h1 {
+  font-size: 64px;
+  line-height: 1.5;
+}
+
+.about-me h2 {
+  font-size: 18px;
+}
+
+.about-me-section {
+  margin: 30px;
+}
+
 .btn-branding {
   color: black;
   background: white;
@@ -82,7 +99,7 @@ p {
   padding: 120px 60px;
 }
 
-@media (max-width: 960px) {
+@media (max-width: 900px) {
   h1 {
     font-size: 60px;
   }
@@ -93,6 +110,11 @@ p {
 
   .hero {
     padding: 80px 20px;
+  }
+
+  .about-me {
+    text-align: center;
+    padding: 0;
   }
 
   .project-description {
